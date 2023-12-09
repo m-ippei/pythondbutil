@@ -1,0 +1,18 @@
+[build-system]
+requires = ["hatchiling"]
+build-backend = "hatchiling.build"
+
+[project]
+name = "pythondbutil"
+version = "0.0.1"
+authors = [
+  { name="Ippei Morita", email="ippei0923@gmail.com" },
+]
+description = "Python SQLite Utility."
+readme = "README.md"
+requires-python = ">=3.10"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
