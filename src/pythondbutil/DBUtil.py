@@ -38,13 +38,12 @@ class DBUtil:
         Returns:
             sql_text (str): SQL文
         """
-        
-        #格納用dict
+    
         data_dic = {}
 
         for key,value in raw_data_dic.items():
 
-            #valueがNoneのものは挿入しない
+            #valueがNoneのものは追加しない
             if value != None:
                 data_dic[key] = value
 
